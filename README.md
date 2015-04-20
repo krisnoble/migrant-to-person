@@ -9,7 +9,7 @@ This is a fork of [Cloud to Butt](https://github.com/panicsteve/cloud-to-butt) t
 
 Examples
 ------------
-"The 20m (70ft) long boat was believed to be carrying up to 700 migrants" -> "The 20m (70ft) long boat was believed to be carrying up to 700 *people fleeing from a terrible situation*"
+"The boat was believed to be carrying up to 700 migrants" -> "The boat was believed to be carrying up to 700 *people fleeing from a terrible situation*"
 
 "Immigrants are trying to get into the United Kingdom" -> "*People seeking a better life* are trying to get into the United Kingdom"
 

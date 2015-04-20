@@ -66,16 +66,26 @@ function handleText(textNode)
 }
 
 function isTweetBoxChild(textNode) {
-	if(findAncestor(textNode, 'tweet-content')) {
+	if(findAncestor(textNode.parentElement, 'tweet-content')) {
     	return true;
-    } else {
+	} else {
     	return false;
     }
 }
 
-function findAncestor (el, target) { // http://stackoverflow.com/a/22119674/1646470
-    while ((el = el.parentElement) && !el.classList.contains(target));
-    return el;
+function findAncestor(el, target) { // http://stackoverflow.com/a/22119674/1646470
+	
+	var i = 0;
+	
+    while (el && !el.classList.contains(target) && i<5) {
+    	el = el.parentElement;
+    	i++;
+    }
+    if(!el) {
+    	return false;
+    } else {
+   		return el.classList.contains(target);
+   	}
 }
 
 function nodeInsertedCallback(event) { // http://stackoverflow.com/a/8887226/1646470
