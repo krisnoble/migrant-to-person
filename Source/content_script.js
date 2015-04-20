@@ -29,6 +29,7 @@ function walk(node)
 
 function handleText(textNode) 
 {
+	if(textNode.parentElement.nodeName == 'input' || textNode.parentElement.nodeName == 'textarea')
 	var v = textNode.nodeValue;
 	var rand = Math.random();
 	
