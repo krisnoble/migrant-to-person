@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
-	"name": "Cloud To Butt",
-	"version": "1.0",
-	"description": "Replaces the text 'the cloud' with 'my butt'.",
+	"name": "Migrant to Person",
+	"version": "1.4",
+	"description": "Replaces words like 'migrant' with words like 'person'.",
 	"content_scripts": 
 	[
 		{

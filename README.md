@@ -1,37 +1,19 @@
-cloud-to-butt
+migrant-to-person
 =============
 
-Chrome extension that replaces occurrences of 'the cloud' with 'my butt'
+Chrome extension that replaces words like 'migrant' with ones like 'person'.
 
-[Direct download of crx file](https://github.com/panicsteve/cloud-to-butt/blob/master/CloudToButt.crx?raw=true)
+[Direct download of crx file](https://github.com/krisnoble/migrant-to-person/blob/master/MigrantToPerson.crx?raw=true)
 
-Note that there are forks of this extension that simply replace 'cloud' with 'butt'.
-In my personal opinion, that approach is too broad and it's less funny as a result, but it is clearly a very
-polarizing issue in the cloud-to-butt user community.  Forks are free to do whatever they like.  But officially, _this_
-extension replaces only the phrase described above. Thank you for your concern.
+This is a fork of [Cloud to Butt](https://github.com/panicsteve/cloud-to-butt) that aims to humanize [news stories about 'migrants'](http://www.bbc.co.uk/news/world-europe-32377768) by making them about 'people' instead. The words used can change the tone of a story dramatically.
 
-Screenshot Gallery
-------------------
+Examples
+------------
+"The 20m (70ft) long boat was believed to be carrying up to 700 migrants" -> "The 20m (70ft) long boat was believed to be carrying up to 700 *people fleeing from a terrible situation*"
 
-http://www.flickr.com/groups/cloud-to-butt/
+"Immigrants are trying to get into the United Kingdom" -> "*People seeking a better life* are trying to get into the United Kingdom"
 
 Installation
 ------------
 
 In Chrome, choose Window > Extensions.  Drag CloudToButt.crx into the page that appears.
-
-Safari Version
---------------
-
-Can be found here: https://github.com/logancollins/cloud-to-butt-safari
-
-Firefox Version
----------------
-
-Can be found here: https://github.com/DaveRandom/cloud-to-butt-mozilla
-
-
-Opera Version
----------------
-
-Can be found here: https://github.com/DaveRandom/cloud-to-butt-opera
