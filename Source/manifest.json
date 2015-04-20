@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Migrant to Person",
-	"version": "1.5",
+	"version": "1.6.9",
 	"description": "Replaces words like 'migrant' with words like 'person'.",
 	"content_scripts": 
 	[
@@ -12,4 +12,3 @@
 		}
 	]
 }
-

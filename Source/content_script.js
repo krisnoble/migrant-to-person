@@ -28,8 +28,8 @@ function walk(node)
 }
 
 function handleText(textNode) 
-{
-	if(textNode.parentElement.nodeName != 'input' && textNode.parentElement.nodeName != 'textarea'){
+{	
+	if(!isTweetBoxChild(textNode)){
 		var v = textNode.nodeValue;
 		var rand = Math.random();
 		
@@ -65,9 +65,20 @@ function handleText(textNode)
 	}
 }
 
+function isTweetBoxChild(textNode) {
+	if(findAncestor(textNode, 'tweet-content')) {
+    	return true;
+    } else {
+    	return false;
+    }
+}
+
+function findAncestor (el, target) { // http://stackoverflow.com/a/22119674/1646470
+    while ((el = el.parentElement) && !el.classList.contains(target));
+    return el;
+}
+
 function nodeInsertedCallback(event) { // http://stackoverflow.com/a/8887226/1646470
     walk(document.body);
 };
 document.addEventListener('DOMNodeInserted', nodeInsertedCallback);
-
-
