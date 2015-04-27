@@ -3,8 +3,6 @@ migrant-to-person
 
 Chrome extension that replaces words like 'migrant' with ones like 'person'.
 
-[Direct download of crx file](https://github.com/krisnoble/migrant-to-person/blob/master/MigrantToPerson.crx?raw=true)
-
 This is a fork of [Cloud to Butt](https://github.com/panicsteve/cloud-to-butt) that aims to humanize [news stories about 'migrants'](http://www.bbc.co.uk/news/world-europe-32377768) by making them about 'people' instead. The words used can change the tone of a story dramatically.
 
 Examples
@@ -16,4 +14,6 @@ Examples
 Installation
 ------------
 
-In Chrome, choose Window (or More Tools) > Extensions.  Drag MigrantToPerson.crx into the page that appears.
+[Install via Chrome Web Store](https://chrome.google.com/webstore/detail/migrant-to-person/ajallklncfbkhjlhibnjbkjfagdicalj)
+
+or [direct download of .crx file](https://github.com/krisnoble/migrant-to-person/blob/master/MigrantToPerson.crx?raw=true)
